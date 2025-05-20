@@ -8,37 +8,37 @@
 
 /* Colors */
 
-:roots{
+:root{
       --first-colour : #4070f4;
       --second-colour: #0e2431;
-      -gradient-colour: linear-gradient(to right, #5001fb, #8e0af3);
+      --gradient-colour: linear-gradient(to right, #5001fb, #8e0af3);
 }
 
 /* FONT STYLE */
-:root{
+:root{  
      --body-font : 'Poppins', sans-serif;
-     --big-font size : 2rem;
+     --big-font-size : 2rem;
      --h2-font-size : 1.5rem;
-     --normal-font-size ;0.938rem;
+     --normal-font-size :0.938rem;
 }
 
 /* Media Screen Min-Width :768px */
 @media screen and (min-width :768px){
     :root {
-     --big-font size : 3.5rem;
+     --big-font-size : 3.5rem;
      --h2-font-size :2rem;
-     --normal-font-size ;1rem;
+     --normal-font-size :1rem;
     }
 }
 
 /* Margins */
 :root{
-    -mb-1 :0.5rem
-    -mb-2 :1rem
-    -mb-3 :1.5rem
-    -mb-4 :2rem
-    -mb-5 :2.5rem
-    -mb-6 :3rem
+    --mb-1 :0.5rem;
+    --mb-2 :1rem;
+    --mb-3 :1.5rem;
+    --mb-4 :2rem;
+    --mb-5 :2.5rem;
+    --mb-6 :3rem
 }
 
 /* Z-index */
